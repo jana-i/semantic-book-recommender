@@ -15,18 +15,18 @@ You can also filter results by fiction or non-fiction, and sort them by mood (ha
 This project was initially created in Python 3.11. 
 To run the project, the following dependencies are required:
 
-*kagglehub
-*pandas
-*matplotlib
-*seaborn
-*python-dotenv
-*langchain-community
-*langchain-opencv
-*langchain-chroma
-*transformers
-*gradio
-*notebook
-*ipywidgets
+- kagglehub
+- pandas
+- matplotlib
+- seaborn
+- python-dotenv
+- langchain-community
+- langchain-opencv
+- langchain-chroma
+- transformers
+- gradio
+- notebook
+- ipywidgets
 
 ## Setup
 To create the vector database, add a `.env` file in the root directory containing your OpenAI API key (`OPENAI_API_KEY=your_key_here`). 

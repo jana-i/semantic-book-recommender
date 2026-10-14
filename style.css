@@ -1,0 +1,26 @@
+.grid-wrap .caption-label {
+    display: none !important;
+}
+
+.preview {
+    flex-direction: row !important;
+    align-items: center !important;
+}
+
+.preview .media-button {
+    flex: 1 1 40% !important;
+}
+
+.preview .caption {
+    position: static !important;
+    flex: 1 1 60% !important;
+    display: block !important;
+    text-align: left !important;
+    font-weight: bold !important;
+    white-space: normal !important;
+    overflow: auto !important;
+    height: auto !important;
+    max-height: 100% !important;
+    padding: 20px !important;
+    background: transparent !important;
+}
